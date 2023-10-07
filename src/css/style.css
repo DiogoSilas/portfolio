@@ -1,0 +1,14 @@
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+}
+.header ul {
+    display: flex;
+}
+.header ul li {
+    margin: 15px;
+}
