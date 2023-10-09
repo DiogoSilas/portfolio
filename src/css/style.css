@@ -4,6 +4,19 @@ main {
     max-width: 1260px;
     margin: auto;
 }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h2, h3 {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    text-align: justify;
+}
 
 /*Cabaçario*/
 .header {
@@ -23,20 +36,42 @@ main {
 .desenvolvimento-web div {
     margin: 10px;
 }
-.desenvolvimento-web .descricao {
-    background-color: greenyellow;
-}
-.desenvolvimento-web .habilidades {
-    background-color: goldenrod;
-}
-.desenvolvimento-web img {
-    width: 300px;
-    height: 300px;
-}
 @media (max-width: 768px) {
     .desenvolvimento-web {
         flex-wrap: wrap;
     }
+}
+
+.desenvolvimento-web .descricao h1 {
+    text-align: center;
+}
+.desenvolvimento-web .descricao p {
+    text-align: justify;
+    margin: 10px 15px;
+}
+.desenvolvimento-web .descricao a {
+    margin: 30px 15px;
+}
+
+.desenvolvimento-web #botao-curriculo {
+    margin: 50px 15px;
+}
+
+
+.desenvolvimento-web .habilidades {
+    text-align: center;
+    margin: 10px auto;
+}
+.desenvolvimento-web .habilidades #foto-de-perfil {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: solid 4px #ffd940;
+    border-radius: 50%;
+}
+.habilidades .linguagens-de-programacao img {
+    width: 50px;
+    height: 30px;
 }
 
 
@@ -48,9 +83,9 @@ main {
 }
 .cartoes-projetos {
     border: solid #000000 2px;
-    width: 310px;
+    width: 280px;
     height: 415px;
-    margin: 30px;
+    margin: 15px auto;
 }
 .cartoes-projetos img {
     width: 100%;
