@@ -1,45 +1,35 @@
 @charset "UTF-8";
 
-main {
-    max-width: 1260px;
-    margin: auto;
-}
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
-h2, h3 {
-    text-align: center;
-}
-* {
-    box-sizing: border-box;
-    text-align: justify;
-}
-
 /*Cabaçario*/
 .header {
+    height: 60px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(255, 237, 188);
 }
 .header ul {
     display: flex;
 }
 .header ul li {
-    margin: 15px;
+    margin: 10px 25px;
 }
 
 /*SOBRE*/
 .desenvolvimento-web {
     display: flex;
 }
-.desenvolvimento-web div {
-    margin: 10px;
-}
 @media (max-width: 768px) {
     .desenvolvimento-web {
         flex-wrap: wrap;
     }
+}
+
+.desenvolvimento-web .descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .desenvolvimento-web .descricao h1 {
@@ -50,11 +40,11 @@ h2, h3 {
     margin: 10px 15px;
 }
 .desenvolvimento-web .descricao a {
-    margin: 30px 15px;
+    margin: 0px 15px;
 }
 
 .desenvolvimento-web #botao-curriculo {
-    margin: 50px 15px;
+    margin: 15px 15px;
 }
 
 
@@ -65,17 +55,23 @@ h2, h3 {
 .desenvolvimento-web .habilidades #foto-de-perfil {
     width: 300px;
     height: 300px;
-    margin: 20px;
+    margin: 10px;
     border: solid 4px #ffd940;
     border-radius: 50%;
 }
 .habilidades .linguagens-de-programacao img {
-    width: 50px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.desenvolvimento-web .habilidades a {
+    display: block;
+    margin: 30px 0px;
 }
 
-
-
+.sobre p {
+    margin: 15px;
+}
 /*PROJETOS*/
 .projetos {
     display: flex;
