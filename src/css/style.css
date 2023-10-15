@@ -170,7 +170,9 @@ h1, h2, h3 {
     height: 210px;
     border-bottom: solid #000000 1px;
 }
-
+.contatos img {
+    width: 100%;
+}
 .footer {
     display: flex;
     align-items: center;
