@@ -10,49 +10,40 @@
     justify-content: space-around;
     align-items: center;
     padding: 15px;
-    background-color: #fffda5ca;
+    background-color: #6d6d6d;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.menu .logo {
-    font-size: 24px;
-}
-
 .menu .logo a {
-    color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
     font-weight: 600;
+
 }
 
 .menu-lista ul {
     display: flex;
 }
 
-.menu-lista ul li {
-    margin: 15px 30px;
-}
-
 .menu-lista ul a {
-    color: #000000;
+    color: #ffffff;
     padding: 8px 10px;
+    margin: 15px 30px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 .menu-lista ul a:hover {
-    background-color: #fffb00;
+    background-color: #787800;
 }
 
 .mobile-menu-icone button {
     display: none;
 } 
-
-.mobile-menu-icone img {
-    width: 30px;
-    height: 30px;
-}
 
 .mobile-menu {
     display: none;
@@ -81,23 +72,23 @@
         height: 90vh;
         background-color: #ffffffc7;
     }
-    .mobile-menu ul li {
+    .mobile-menu ul a {
         margin: 25px;
         padding: 10px 15px;
-        height: 38px;
         border-radius: 10px;
-        background-color: #fffb00;
+        height: 38px;
+        color: #fff;
+        background-color: #aeae00;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .open {
         display: block;
     }
 }
 
-
-h1, h2, h3 {
-    text-align: center;
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 /*SOBRE*/
 .desenvolvimento-web {
     display: flex;
@@ -116,17 +107,44 @@ h1, h2, h3 {
 
 .desenvolvimento-web .descricao h1 {
     text-align: center;
+    margin: 20px 0px;
 }
 .desenvolvimento-web .descricao p {
     text-align: justify;
     margin: 10px 15px;
 }
-.desenvolvimento-web .descricao a {
+
+.icones-redes-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.icones-redes-social img {
+    width: 40px;
+    height: 40px;
     margin: 0px 15px;
 }
 
 .desenvolvimento-web #botao-curriculo {
-    margin: 15px 15px;
+    padding: 15px 5px;
+    border: none;
+    margin: 0 40px;
+    background-color: #000000;
+    border: solid 2px #dcb000;
+}
+.desenvolvimento-web #botao-curriculo:hover {
+    background-color: #fff;
+    color: #000000;
+    border: solid 3px #dcb000;
+}
+.desenvolvimento-web #botao-curriculo a {
+    color: #dcb000;
+    font-weight: 800;
+}
+.desenvolvimento-web #botao-curriculo a:hover {
+    color: #dcb000;
 }
 
 
@@ -149,15 +167,31 @@ h1, h2, h3 {
 .desenvolvimento-web .habilidades a {
     display: block;
     margin: 30px 0px;
+    color: #000c8f;
+    text-decoration: underline;
+}
+
+/*SOBRE*/
+.sobre h2 {
+    text-align: center;
+    margin: 20px 0px;
 }
 
 .sobre p {
-    margin: 15px;
+    margin: 25px;
 }
+
 /*PROJETOS*/
 .projetos {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+}
+.projetos h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px;
 }
 .cartoes-projetos {
     border: solid #000000 2px;
@@ -170,15 +204,31 @@ h1, h2, h3 {
     height: 210px;
     border-bottom: solid #000000 1px;
 }
-.contatos img {
+
+/*CONTATO*/
+.contatos h2 {
+    text-align: center;
+    margin: 25px 0px;
+}
+.contatos .banner-contatos {
     width: 100%;
+    height: 100px;
+}
+
+.contatos div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contatos address {
+    font-size: 1.5rem;
+    margin: 40px;
 }
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: #ccc;
+    background-color: #6d6d6d;
 }
 
 .footer p {
