@@ -107,7 +107,7 @@ p {
 
 .desenvolvimento-web .descricao h1 {
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 .desenvolvimento-web .descricao p {
     text-align: justify;
@@ -118,13 +118,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
     height: 70px;
 }
 
 .icones-redes-social img {
     width: 40px;
     height: 40px;
-    margin: 0px 15px;
+    margin: 5px 15px;
 }
 
 .desenvolvimento-web #botao-curriculo {
@@ -174,7 +175,7 @@ p {
 /*SOBRE*/
 .sobre h2 {
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 
 .sobre p {
@@ -191,7 +192,7 @@ p {
     display: block;
     text-align: center;
     width: 100%;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 .cartoes-projetos {
     border: solid #000000 2px;
@@ -208,7 +209,7 @@ p {
 /*CONTATO*/
 .contatos h2 {
     text-align: center;
-    margin: 25px 0px;
+    margin: 25px 10px;
 }
 .contatos .banner-contatos {
     width: 100%;
@@ -220,8 +221,8 @@ p {
     flex-wrap: wrap;
 }
 .contatos address {
-    font-size: 1.5rem;
-    margin: 40px;
+    font-size: 1.1rem;
+    margin: 30px;
 }
 .footer {
     display: flex;
