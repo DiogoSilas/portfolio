@@ -123,8 +123,6 @@ p {
 }
 
 .icones-redes-social img {
-    width: 40px;
-    height: 40px;
     margin: 5px 15px;
 }
 
@@ -154,15 +152,11 @@ p {
     margin: 30px auto;
 }
 .desenvolvimento-web .habilidades #foto-de-perfil {
-    width: 300px;
-    height: 300px;
     margin: 10px;
     border: solid 4px #ffd940;
     border-radius: 50%;
 }
 .habilidades .linguagens-de-programacao img {
-    width: 60px;
-    height: 60px;
     border-radius: 15px;
 }
 .desenvolvimento-web .habilidades a {
@@ -205,8 +199,38 @@ p {
     height: 210px;
     border-bottom: solid #000000 1px;
 }
+/*LINGUAGENS*/
+.linguagens-do-cartao {
+    margin: 5px;
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botao-html {
+    background-color: rgb(255, 113, 61);
+    padding: 5px;
+    border-radius: 10px;
+}
+.botao-css {
+    background-color: rgb(0, 174, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.botao-javascript {
+    background-color: rgb(238, 246, 0);
+    padding: 5px;
+    border-radius: 10px;
+}
+.scroll-do-cartao {
+    height: 90px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.cartoes-projetos p {
+    text-align: justify;
+    padding: 10px;
+}
 
-/*CONTATO*/
+/*CONTATOS*/
 .contatos h2 {
     text-align: center;
     margin: 25px 10px;
@@ -219,11 +243,21 @@ p {
 .contatos div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .contatos address {
     font-size: 1.1rem;
     margin: 30px;
 }
+
+.contatos address a,
+.contatos address img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Rodapé*/
 .footer {
     display: flex;
     align-items: center;
