@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 body {
-    margin-top: 60px;
+    margin-top: 58px;
+    background-color: #c4c4c4;
 }
 main {
     max-width: 1200px;

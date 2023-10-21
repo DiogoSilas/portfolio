@@ -10,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 15px;
-    background-color: #6d6d6d;
+    background-color: #000000;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +38,8 @@
     font-weight: 400;
 }
 .menu-lista ul a:hover {
-    background-color: #787800;
+    color: #000000;
+    background-color: #ffff00;
 }
 
 .mobile-menu-icone button {
@@ -78,8 +79,12 @@
         border-radius: 10px;
         height: 38px;
         color: #fff;
-        background-color: #aeae00;
+        background-color: #000000;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    .mobile-menu ul a:hover {
+        color: #000000;
+        background-color: #ffff00;
     }
     .open {
         display: block;
@@ -167,6 +172,13 @@ p {
 }
 
 /*SOBRE*/
+.sobre {
+    background-color: #000000;
+    color: #bfbfbf;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px 0px;
+}
 .sobre h2 {
     text-align: center;
     margin: 20px 10px;
@@ -190,6 +202,7 @@ p {
 }
 .cartoes-projetos {
     border: solid #000000 2px;
+    border-radius: 15px;
     width: 250px;
     height: 340px;
     margin: 15px auto;
@@ -198,6 +211,7 @@ p {
     width: 100%;
     height: 210px;
     border-bottom: solid #000000 1px;
+    border-radius: 15px;
 }
 /*LINGUAGENS*/
 .linguagens-do-cartao {
@@ -221,9 +235,14 @@ p {
     border-radius: 10px;
 }
 .scroll-do-cartao {
-    height: 90px;
+    height: 85px;
     margin-top: 10px;
     overflow-y: scroll;
+}
+.scroll-do-cartao::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 5px;
+    background-color: #626262;
 }
 .cartoes-projetos p {
     text-align: justify;
@@ -263,9 +282,10 @@ p {
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: #6d6d6d;
+    background-color: #000000;
 }
 
 .footer p {
+    color: #fff;
     text-align: center;
 }
