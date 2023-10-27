@@ -124,7 +124,6 @@ p {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    height: 70px;
 }
 
 .icones-redes-social img {
@@ -157,7 +156,7 @@ p {
     margin: 30px auto;
 }
 .desenvolvimento-web .habilidades #foto-de-perfil {
-    margin: 15px;
+    margin: 15px 5px;
     border: solid 4px #ffd940;
     border-radius: 50%;
 }
@@ -269,6 +268,10 @@ p {
 .contatos address {
     font-size: 1.1rem;
     margin: 30px;
+}
+
+.contatos address a:visited {
+    color: #000000;
 }
 
 .contatos address a,
