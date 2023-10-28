@@ -10,7 +10,8 @@ body {
     background-color: #c4c4c4;
 }
 main {
-    max-width: 1200px;
+    max-width: 1024px;
+    min-width: 320px;
     margin: auto;
     background-color: #ffffff;
 }
