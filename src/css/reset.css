@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     margin-top: 58px;
     background-color: #c4c4c4;
@@ -15,12 +16,11 @@ main {
     margin: auto;
     background-color: #ffffff;
 }
-p {
-    text-align: justify;
-}
+
 ul {
     list-style: none;
 }
 a {
     text-decoration: none;
+    color: #000000;
 }

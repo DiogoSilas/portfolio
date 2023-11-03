@@ -1,0 +1,89 @@
+.header {
+    width: 100%;
+    min-height: 90px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu .logo a {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.menu-lista ul {
+    display: flex;
+}
+
+.menu-lista ul a {
+    color: #ffffff;
+    padding: 8px 10px;
+    margin: 15px 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.menu-lista ul a:hover {
+    color: #000000;
+    background-color: #ffff00;
+}
+
+.mobile-menu-icone button {
+    display: none;
+} 
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .menu-lista {
+        display: none;
+    }
+
+    .mobile-menu-icone button {
+        display: block;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 90vh;
+        background-color: #ffffffc7;
+    }
+    .mobile-menu ul a {
+        margin: 25px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        height: 38px;
+        color: #fff;
+        background-color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mobile-menu ul a:hover {
+        color: #000000;
+        background-color: #ffff00;
+    }
+    .open {
+        display: block;
+    }
+}

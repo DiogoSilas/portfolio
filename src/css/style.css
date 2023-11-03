@@ -1,194 +1,106 @@
 @charset "UTF-8";
 
-/*Cabaçario*/
-.header {
-    width: 100%;
-    min-height: 90px;
-}
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    background-color: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.menu .logo a {
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-
-}
-
-.menu-lista ul {
-    display: flex;
-}
-
-.menu-lista ul a {
-    color: #ffffff;
-    padding: 8px 10px;
-    margin: 15px 30px;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-}
-.menu-lista ul a:hover {
-    color: #000000;
-    background-color: #ffff00;
-}
-
-.mobile-menu-icone button {
-    display: none;
-} 
-
-.mobile-menu {
-    display: none;
-}
-
-@media screen and (max-width:768px) {
-    .menu-lista {
-        display: none;
-    }
-
-    .mobile-menu-icone button {
-        display: block;
-        cursor: pointer;
-        border: none;
-        background-color: transparent;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        width: 100vw;
-        height: 90vh;
-        background-color: #ffffffc7;
-    }
-    .mobile-menu ul a {
-        margin: 25px;
-        padding: 10px 15px;
-        border-radius: 10px;
-        height: 38px;
-        color: #fff;
-        background-color: #000000;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .mobile-menu ul a:hover {
-        color: #000000;
-        background-color: #ffff00;
-    }
-    .open {
-        display: block;
-    }
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-/*SOBRE*/
 .desenvolvimento-web {
     display: flex;
 }
-@media screen and (max-width: 768px) {
-    .desenvolvimento-web {
-        flex-wrap: wrap;
-    }
-}
-
-.desenvolvimento-web .descricao {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.desenvolvimento-web .descricao h1 {
+.habilidades {
+    padding: 30px 15px;
     text-align: center;
-    margin: 20px 10px;
-}
-.desenvolvimento-web .descricao p {
-    text-align: justify;
-    margin: 10px 15px;
 }
 
-.icones-redes-social {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.icones-redes-social img {
-    margin: 5px 15px;
-}
-
-.desenvolvimento-web #botao-curriculo {
-    padding: 15px 5px;
-    border: none;
-    margin: 0 40px;
-    background-color: #000000;
-    border: solid 2px #dcb000;
-}
-.desenvolvimento-web #botao-curriculo:hover {
-    background-color: #fff;
-    color: #000000;
-    border: solid 3px #dcb000;
-}
-.desenvolvimento-web #botao-curriculo a {
-    color: #dcb000;
-    font-weight: 800;
-}
-.desenvolvimento-web #botao-curriculo a:hover {
-    color: #dcb000;
-}
-
-
-.desenvolvimento-web .habilidades {
-    text-align: center;
-    margin: 30px auto;
-}
-.desenvolvimento-web .habilidades #foto-de-perfil {
-    margin: 15px 5px;
-    border: solid 4px #ffd940;
+.habilidades #foto-de-perfil {
+    margin: 15px auto;
+    border: solid 2.5px #ffbc35;
     border-radius: 50%;
 }
-.habilidades .linguagens-de-programacao img {
-    border-radius: 15px;
+
+.habilidades .btn-habilidade {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.desenvolvimento-web .habilidades a {
+
+.btn-habilidade.javascript {
+    background-color: #ffbc35;
+    border: solid 2px #ffbc35;
+}
+
+.btn-habilidade.javascript:hover{
+    border: solid 2px #ffbc35;
+    background-color: #000;
+    color: #ffbc35;
+}
+
+.btn-habilidade.html {
+    background-color: #ff8426;
+    border: solid 2px #ff8426;
+}
+.btn-habilidade.html:hover {
+    border: solid 2px #ff8426;
+    background-color: #000;
+    color: #ff8426;
+}
+
+.btn-habilidade.css {
+    background-color: #3482ff;
+    border: solid 2px #3482ff;
+
+}
+.btn-habilidade.css:hover {
+    border: solid 2px #3482ff;
+    background-color: #000;
+    color: #3482ff;
+}
+
+.habilidades .resumos-tech {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descricao {
     display: block;
-    margin: 30px 0px;
-    color: #000433;
+    padding: 10px;
 }
-.desenvolvimento-web .habilidades a:hover {
-    color: #dcb000;
-}
-
-/*SOBRE*/
-.sobre {
-    background-color: #000000;
-    color: #bfbfbf;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 30px 0px;
-}
-.sobre h2 {
+.descricao h1 {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    margin: 15px 0px;
     text-align: center;
-    margin: 20px 10px;
+}
+.descricao p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 5px;
+    text-align: justify;
+}
+.descricao .fa-github, .descricao .fa-linkedin, .descricao .fa-instagram {
+    display: inline-block;
+    margin: 15px;
+    font-size: 2.3em;
 }
 
-.sobre p {
-    margin: 25px;
+.descricao #btn-curriculo {
+    display: block;
+    margin: 20px;
+    padding: 10px 5px;
 }
 
+@media  screen and (max-width: 768px) {
+    .desenvolvimento-web {
+        display: block;
+    }
+    .habilidades {
+        padding: 20px 0px;
+    }
+    .habilidades #foto-de-perfil {
+        margin: auto;
+    }
+}
+ 
 /*PROJETOS*/
 .projetos {
     display: flex;
@@ -240,11 +152,7 @@ p {
     margin-top: 10px;
     overflow-y: scroll;
 }
-.scroll-do-cartao::-webkit-scrollbar {
-    width: 7px;
-    border-radius: 5px;
-    background-color: #626262;
-}
+
 .cartoes-projetos p {
     text-align: justify;
     padding: 10px;
@@ -286,7 +194,7 @@ p {
     background-color: #000000;
 }
 
-.footer p {
+.footer address {
     padding: 30px 10px;
     text-align: center;
     color: #fff;
