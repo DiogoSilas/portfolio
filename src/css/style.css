@@ -17,7 +17,7 @@
 .habilidades .btn-habilidade {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     color: #000000;
     padding: 5px;
     margin: 30px auto;
@@ -100,7 +100,26 @@
         margin: auto;
     }
 }
- 
+
+.sobre {
+    background-color: #000;
+    color: #bbbbbb;
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+}
+
+.sobre p {
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
 /*PROJETOS*/
 .projetos {
     display: flex;
@@ -130,22 +149,26 @@
 .linguagens-do-cartao {
     margin: 5px;
     font-size: 0.7rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .botao-html {
-    background-color: rgb(255, 113, 61);
+    background-color: #ff8426;
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .botao-css {
-    background-color: rgb(0, 174, 255);
+    background-color: #3482ff;
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
+
 }
 .botao-javascript {
-    background-color: rgb(238, 246, 0);
+    background-color: #ffbc35;
     padding: 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .scroll-do-cartao {
     height: 85px;
@@ -155,6 +178,7 @@
 
 .cartoes-projetos p {
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
 
@@ -182,8 +206,7 @@
     color: #000000;
 }
 
-.contatos address a,
-.contatos address img {
+.contatos address a {
     display: flex;
     align-items: center;
     justify-content: center;
