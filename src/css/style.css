@@ -198,18 +198,12 @@
     justify-content: center;
 }
 .contatos address {
-    font-size: 1.1rem;
     margin: 30px;
+    font-size: 1.6rem;
 }
 
 .contatos address a:visited {
     color: #000000;
-}
-
-.contatos address a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*Rodapé*/
